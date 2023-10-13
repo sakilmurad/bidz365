@@ -1326,7 +1326,7 @@ header .menus .submenu {
         min-width: -webkit-max-content;
         min-width: -moz-max-content;
         min-width: max-content;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         --tw-bg-opacity: 1;
         background-color: rgb(240 244 247/var(--tw-bg-opacity));
         --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1);
@@ -1351,7 +1351,7 @@ header .menus .submenu {
 
 @media (min-width:1142px) {
     header .menus .submenu {
-        grid-template-columns: repeat(4, minmax(0, 1fr))
+        grid-template-columns: repeat(2, minmax(0, 1fr))
     }
     [dir=ltr] header .menus .submenu {
         left: -50%
@@ -5085,6 +5085,10 @@ header .menus .submenu a.active {
 
 .pl-1 {
     padding-left: .25rem
+}
+
+.pl-2 {
+    padding-left: .5rem
 }
 
 .pb-3 {
@@ -10331,4 +10335,8 @@ header .menus.open-menus {
     [dir=rtl] .xl\:rtl\:text-right {
         text-align: right
     }
+}
+
+.margin{
+    margin-left: 1.5rem;
 }

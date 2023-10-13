@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms & Conditions - Bidz365 | Tender Management Service in Kashmir</title>
+    <link rel="icon" href="https://www.bidz365.com/assets/uploads/favicon.png" sizes="32x32" />
+    <link rel="icon" href="https://www.bidz365.com/assets/uploads/favicon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://www.bidz365.com/assets/uploads/favicon.png" />
+    <!-- Favicon -->
+    <link rel="icon" type="icon" href="assets/images/favicon.png" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800;900&display=swap"
+        rel="stylesheet" />
+    <!-- Swiper Slider -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- AOS Animation CSS -->
+    <link href="assets/css/aos.css" rel="stylesheet" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body class="overflow-x-hidden">
+    <!-- screen loader -->
+    <div class="screen_loader fixed inset-0 z-[60] grid place-content-center bg-[#fafafa] dark:bg-[#060818]">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="200px"
+            viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+            <circle cx="50" cy="50" r="0" fill="none" stroke="#47bdff" stroke-width="4">
+                <animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;16" keyTimes="0;1"
+                    keySplines="0 0.2 0.8 1" calcMode="spline" begin="0s"></animate>
+                <animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1"
+                    keySplines="0.2 0 0.8 1" calcMode="spline" begin="0s"></animate>
+            </circle>
+            <circle cx="50" cy="50" r="0" fill="none" stroke="#b476e5" stroke-width="4">
+                <animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;16" keyTimes="0;1"
+                    keySplines="0 0.2 0.8 1" calcMode="spline" begin="-0.5s"></animate>
+                <animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1"
+                    keySplines="0.2 0 0.8 1" calcMode="spline" begin="-0.5s"></animate>
+            </circle>
+        </svg>
+    </div>
+
+    <div
+        class="flex min-h-screen flex-col bg-white bg-gradient-to-r from-[#FCF1F4] to-[#EDFBF9] font-mulish text-base font-normal text-gray antialiased dark:bg-[#101926] dark:from-transparent dark:to-transparent">
+        <header id="top-header" class="sticky top-0 z-50 bg-white transition duration-300">
+            <div class="container">
+                <div class="relative flex items-center justify-between py-5 lg:py-0">
+                    <a href="/"><img src="assets/images/logo.jpeg" alt="logo" class="h-15" /></a>
+                    <div class="flex items-center">
+                        <div onclick="toggleMenu()" class="overlay fixed inset-0 z-[51] hidden bg-black/60 lg:hidden">
+                        </div>
+                        <div class="menus">
+                            <div class="border-b border-gray/10 ltr:text-right rtl:text-left lg:hidden">
+                                <button onclick="toggleMenu()" type="button" class="p-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor"
+                                        class="h-6 w-6 text-black dark:text-white">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li class="group relative">
+                                    <a href="javascript:;">
+                                        Services
+                                        <div class="group-hover:rotate-180 ltr:ml-2 rtl:mr-2">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M19 9L12 15L10.25 13.5M5 9L7.33333 11" stroke="currentColor"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <div class="submenu">
+                                        <a href="services/gem.html">Government
+                                            e-Marketplace (GeM)</a>
+                                        <a href="services/tender-participation.html">Tender Participation
+                                            Services</a>
+                                        <a href="services/tender-analytics.html">Tender Analytics
+                                            Report </a>
+                                        <a href="services/digital-signature.html">Digital
+                                            Signature Certificate </a>
+                                        <!-- <a href="marketing.html" class="active">Sales Marketing </a> -->
+                                        <a href="services/training.html">
+                                            Training
+                                            <span
+                                                class="ml-1 whitespace-nowrap rounded bg-gradient-to-r from-[#ef4444] to-[#f97316] px-1.5 py-0.5 text-[10px] font-bold uppercase text-white">
+                                                New
+                                            </span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul
+                            class="flex margin items-center gap-5 ltr:pr-5 rtl:pl-5 ltr:lg:pl-5 ltr:lg:pr-0 rtl:lg:pr-5 rtl:lg:pl-5">
+                            <li>
+                                <a href="tel:+919419499365"
+                                    class="btn bg-secondary py-2 w-max inline-flex items-center text-white hover:bg-primary">
+                                    <svg width="20" height="20" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_563_8253)">
+                                            <path
+                                                d="M22.75 17.7883V21.619C22.7501 21.8933 22.6462 22.1574 22.4592 22.358C22.2722 22.5587 22.0161 22.681 21.7425 22.7002C21.2691 22.7327 20.8823 22.75 20.5833 22.75C11.0099 22.75 3.25 14.9901 3.25 5.41667C3.25 5.11767 3.26625 4.73092 3.29983 4.2575C3.31903 3.9839 3.4413 3.72776 3.64195 3.54078C3.84261 3.35379 4.10672 3.24988 4.381 3.25H8.21167C8.34604 3.24986 8.47567 3.29968 8.57537 3.38977C8.67507 3.47986 8.73773 3.6038 8.75117 3.7375C8.77608 3.98667 8.79883 4.18492 8.8205 4.3355C9.0358 5.838 9.477 7.29932 10.1292 8.66992C10.2321 8.88658 10.1649 9.1455 9.96992 9.28417L7.63208 10.9547C9.06149 14.2853 11.7158 16.9396 15.0464 18.369L16.7148 16.0355C16.7829 15.9402 16.8824 15.8718 16.9959 15.8423C17.1093 15.8128 17.2295 15.824 17.3355 15.8741C18.7059 16.525 20.1669 16.9651 21.6688 17.1795C21.8194 17.2012 22.0177 17.225 22.2647 17.2488C22.3982 17.2625 22.5218 17.3253 22.6117 17.425C22.7016 17.5246 22.7512 17.6541 22.7511 17.7883H22.75Z"
+                                                fill="currentColor"></path>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_563_8253">
+                                                <rect width="26" height="26" fill="white"></rect>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <span class="pl-2">Call Us</span></a>
+                            </li>
+                        </ul>
+                        <button type="button"
+                            class="flex h-10 w-10 items-center justify-center rounded-full bg-primary lg:hidden"
+                            onclick="toggleMenu()">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="text-white">
+                                <path
+                                    d="M2 15H11C11.552 15 12 15.447 12 16C12 16.553 11.552 17 11 17H2C1.448 17 1 16.553 1 16C1 15.447 1.448 15 2 15Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M2 8H20C20.552 8 21 8.447 21 9C21 9.553 20.552 10 20 10H2C1.448 10 1 9.553 1 9C1 8.447 1.448 8 2 8Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M21 2C21 1.447 20.552 1 20 1H7C6.448 1 6 1.447 6 2C6 2.553 6.448 3 7 3H20C20.552 3 21 2.553 21 2Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <footer
+            class="mt-auto bg-white dark:bg-transparent dark:bg-gradient-to-b dark:from-white/[0.03] dark:to-transparent">
+            <div class="container">
+                <div class="grid gap-y-10 gap-x-4 py-14 sm:grid-cols-3 lg:grid-cols-5 lg:py-[100px]">
+                    <div class="relative">
+                        <img src="assets/images/logo.jpeg" alt="logo" class="h-9" />
+                        <ul class="mt-12 flex items-center gap-8">
+                            <li>
+                                <a href="https://www.facebook.com/Bidz365-130653065177107/?modal=admin_todo_tour">
+                                    <svg width="10" height="20" viewBox="0 0 10 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="transition hover:scale-110 hover:text-secondary">
+                                        <path
+                                            d="M8.0733 3.29509H9.88498V0.139742C9.57242 0.0967442 8.49748 0 7.2456 0C4.6335 0 2.84415 1.643 2.84415 4.66274V7.44186H-0.0383301V10.9693H2.84415V19.845H6.37821V10.9701H9.1441L9.58317 7.44269H6.37738V5.01251C6.37821 3.99297 6.65273 3.29509 8.0733 3.29509Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/TechnologiesKb">
+                                    <svg width="23" height="18" viewBox="0 0 23 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="transition hover:scale-110 hover:text-secondary">
+                                        <path
+                                            d="M22.8849 2.11613C22.0668 2.475 21.1951 2.71288 20.2862 2.82838C21.2212 2.27013 21.9348 1.39287 22.2703 0.3355C21.3986 0.85525 20.4361 1.22238 19.4103 1.42725C18.5826 0.545875 17.4028 0 16.1158 0C13.6188 0 11.6086 2.02675 11.6086 4.51137C11.6086 4.86888 11.6388 5.21263 11.7131 5.53988C7.96345 5.357 4.64557 3.55988 2.4167 0.82225C2.02757 1.49738 1.79932 2.27012 1.79932 3.102C1.79932 4.664 2.6037 6.04862 3.8027 6.85025C3.07807 6.8365 2.3672 6.62613 1.76495 6.29475C1.76495 6.3085 1.76495 6.32638 1.76495 6.34425C1.76495 8.536 3.32832 10.3565 5.37845 10.7759C5.01132 10.8763 4.6112 10.9244 4.19595 10.9244C3.9072 10.9244 3.6157 10.9079 3.34207 10.8474C3.92645 12.6335 5.5847 13.9466 7.55645 13.9893C6.02195 15.1896 4.07357 15.9129 1.96432 15.9129C1.59445 15.9129 1.2397 15.8964 0.884949 15.851C2.88282 17.1394 5.25057 17.875 7.80395 17.875C16.1034 17.875 20.6409 11 20.6409 5.04075C20.6409 4.84137 20.6341 4.64887 20.6244 4.45775C21.5196 3.8225 22.2717 3.02913 22.8849 2.11613Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/bidz-365">
+                                    <svg width="23" height="22" viewBox="0 0 23 22" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="transition hover:scale-110 hover:text-secondary">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M7.75995 0H16.0099C19.8063 0 22.8849 3.07862 22.8849 6.875V15.125C22.8849 18.9214 19.8063 22 16.0099 22H7.75995C3.96357 22 0.884949 18.9214 0.884949 15.125V6.875C0.884949 3.07862 3.96357 0 7.75995 0ZM16.0099 19.9375C18.6637 19.9375 20.8224 17.7787 20.8224 15.125V6.875C20.8224 4.22125 18.6637 2.0625 16.0099 2.0625H7.75995C5.1062 2.0625 2.94745 4.22125 2.94745 6.875V15.125C2.94745 17.7787 5.1062 19.9375 7.75995 19.9375H16.0099Z"
+                                            fill="currentColor" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M6.38495 11C6.38495 7.96263 8.84757 5.5 11.8849 5.5C14.9223 5.5 17.3849 7.96263 17.3849 11C17.3849 14.0374 14.9223 16.5 11.8849 16.5C8.84757 16.5 6.38495 14.0374 6.38495 11ZM8.44745 11C8.44745 12.8948 9.9902 14.4375 11.8849 14.4375C13.7797 14.4375 15.3224 12.8948 15.3224 11C15.3224 9.10388 13.7797 7.5625 11.8849 7.5625C9.9902 7.5625 8.44745 9.10388 8.44745 11Z"
+                                            fill="currentColor" />
+                                        <circle cx="17.7975" cy="5.08737" r="0.732875" fill="currentColor" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                        <img src="assets/images/footer-shape.png" alt="footer-shape"
+                            class="absolute bottom-0 right-0 sm:left-0" />
+                        <img src="assets/images/footer-shape-dark.png" alt="footer-shape-dark"
+                            class="absolute bottom-0 right-0 hidden dark:block sm:left-0" />
+                    </div>
+                    <div>
+                        <ul class="flex flex-col gap-3 font-bold">
+                            <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Quick Menu</li>
+                            <li><a href="/"
+                                    class="inline-block transition hover:scale-110 hover:text-secondary">Home</a></li>
+                            <li><a href="about.html"
+                                    class="inline-block transition hover:scale-110 hover:text-secondary">About</a>
+                            </li>
+                            <li><a href="contact.html"
+                                    class="inline-block transition hover:scale-110 hover:text-secondary">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="flex flex-col gap-3 font-bold">
+                            <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Services</li>
+                            <li>
+                                <a href="services/gem.html"
+                                    class="inline-block transition hover:scale-110 hover:text-secondary">GeM Government
+                                    e-Marketplace</a>
+                            </li>
+                            <li>
+                                <a href="services/tender-participation.html"
+                                    class="inline-block transition hover:scale-110 hover:text-secondary">Tender
+                                    Participation</a>
+                            </li>
+                            <li>
+                                <a href="services/tender-analytics.html"
+                                    class="inline-block transition hover:scale-110 hover:text-secondary">Tender
+                                    Analytics Report</a>
+                            </li>
+                            <li>
+                                <a href="services/digital-signature.html"
+                                    class="inline-block transition hover:scale-110 hover:text-secondary">Digital
+                                    Signature Certificate</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="flex flex-col gap-3 font-bold">
+                            <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Legal</li>
+                            <li>
+                                <a href="tc.html"
+                                    class="inline-block transition hover:scale-110 hover:text-secondary">Terms &
+                                    Conditions</a>
+                            </li>
+                            <li>
+                                <a href="privacy-policy.html"
+                                    class="inline-block transition hover:scale-110 hover:text-secondary">Privacy
+                                    Policy</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="flex flex-col gap-3 font-bold">
+                            <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Information</li>
+                            <li>Munawarabad Chowk, Opposite Ikhwan Hotel, Srinagar, Jammu & Kashmir</li>
+                            <li>
+                                <a href="tel:+919419499365"
+                                    class="inline-block transition hover:scale-110 hover:text-secondary">+91
+                                    9419499365</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-gradient-to-r from-[#FCF1F4] to-[#EDFBF9] py-5 dark:border-t-2 dark:border-white/5 dark:bg-none">
+                <div class="container">
+                    <div
+                        class="flex flex-col items-center justify-between text-center font-bold dark:text-white md:flex-row">
+                        <div>
+                            Copyright© <span class="curr-year">2023</span>
+                            <a href="/" class="text-primary transition hover:text-secondary">Bidz365</a>
+                        </div>
+                        <div>Need help? Visit the <a href="contact.html"
+                                class="text-secondary transition hover:text-primary">Contact Us</a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Return to Top -->
+    <a href="https://wa.link/0y1g9v" target="_blank" title="Chat on WhatsApp" id="scrollToTopBtn"
+        class="fixed bottom-5 z-10 hidden animate-bounce left-5">
+        <div
+            class="group hidden h-14 w-14 items-center justify-center rounded-full border border-black/20 bg-slate-300 text-white transition duration-500 lg:flex">
+            <svg class="h-10 w-10 transition group-hover:text-black" viewBox="0 0 32 32" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M16 31C23.732 31 30 24.732 30 17C30 9.26801 23.732 3 16 3C8.26801 3 2 9.26801 2 17C2 19.5109 2.661 21.8674 3.81847 23.905L2 31L9.31486 29.3038C11.3014 30.3854 13.5789 31 16 31ZM16 28.8462C22.5425 28.8462 27.8462 23.5425 27.8462 17C27.8462 10.4576 22.5425 5.15385 16 5.15385C9.45755 5.15385 4.15385 10.4576 4.15385 17C4.15385 19.5261 4.9445 21.8675 6.29184 23.7902L5.23077 27.7692L9.27993 26.7569C11.1894 28.0746 13.5046 28.8462 16 28.8462Z"
+                        fill="#BFC8D0"></path>
+                    <path
+                        d="M28 16C28 22.6274 22.6274 28 16 28C13.4722 28 11.1269 27.2184 9.19266 25.8837L5.09091 26.9091L6.16576 22.8784C4.80092 20.9307 4 18.5589 4 16C4 9.37258 9.37258 4 16 4C22.6274 4 28 9.37258 28 16Z"
+                        fill="url(#paint0_linear_87_7264)"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M16 30C23.732 30 30 23.732 30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 18.5109 2.661 20.8674 3.81847 22.905L2 30L9.31486 28.3038C11.3014 29.3854 13.5789 30 16 30ZM16 27.8462C22.5425 27.8462 27.8462 22.5425 27.8462 16C27.8462 9.45755 22.5425 4.15385 16 4.15385C9.45755 4.15385 4.15385 9.45755 4.15385 16C4.15385 18.5261 4.9445 20.8675 6.29184 22.7902L5.23077 26.7692L9.27993 25.7569C11.1894 27.0746 13.5046 27.8462 16 27.8462Z"
+                        fill="white"></path>
+                    <path
+                        d="M12.5 9.49989C12.1672 8.83131 11.6565 8.8905 11.1407 8.8905C10.2188 8.8905 8.78125 9.99478 8.78125 12.05C8.78125 13.7343 9.52345 15.578 12.0244 18.3361C14.438 20.9979 17.6094 22.3748 20.2422 22.3279C22.875 22.2811 23.4167 20.0154 23.4167 19.2503C23.4167 18.9112 23.2062 18.742 23.0613 18.696C22.1641 18.2654 20.5093 17.4631 20.1328 17.3124C19.7563 17.1617 19.5597 17.3656 19.4375 17.4765C19.0961 17.8018 18.4193 18.7608 18.1875 18.9765C17.9558 19.1922 17.6103 19.083 17.4665 19.0015C16.9374 18.7892 15.5029 18.1511 14.3595 17.0426C12.9453 15.6718 12.8623 15.2001 12.5959 14.7803C12.3828 14.4444 12.5392 14.2384 12.6172 14.1483C12.9219 13.7968 13.3426 13.254 13.5313 12.9843C13.7199 12.7145 13.5702 12.305 13.4803 12.05C13.0938 10.953 12.7663 10.0347 12.5 9.49989Z"
+                        fill="white"></path>
+                    <defs>
+                        <linearGradient id="paint0_linear_87_7264" x1="26.5" y1="7" x2="4" y2="28"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#5BD066"></stop>
+                            <stop offset="1" stop-color="#27B43E"></stop>
+                        </linearGradient>
+                    </defs>
+                </g>
+            </svg>
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="h-6 w-6 transition group-hover:text-black">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+            </svg> -->
+        </div>
+    </a>
+
+    <!-- Swiper Slider JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- Counter Js -->
+    <script src="assets/js/vanilla-counter.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="assets/js/aos.js"></script>
+    <!-- Custom Js -->
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+        // Testimonial Slider
+        var swiper = new Swiper('.mySwiper', {
+            loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 30,
+            speed: 1000,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+        // Service Page - Partner Slider
+        var partnerSwiper = new Swiper('.partner-slider', {
+            loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 30,
+            speed: 2500,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1.7,
+                },
+                600: {
+                    slidesPerView: 3,
+                },
+                1000: {
+                    slidesPerView: 4,
+                },
+                1800: {
+                    slidesPerView: 6,
+                },
+            },
+        });
+
+        // marketing-page - team-member Slider
+        var teamSwiper = new Swiper('.team-member', {
+            loop: true,
+            slidesPerView: '4',
+            spaceBetween: 30,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                },
+                600: {
+                    slidesPerView: 2,
+                },
+                1000: {
+                    slidesPerView: 3,
+                },
+                1600: {
+                    slidesPerView: 4,
+                },
+            },
+            navigation: {
+                nextEl: '.swiper-button-next1',
+                prevEl: '.swiper-button-prev2',
+            },
+        });
+
+        // Counter Js
+        VanillaCounter();
+    </script>
+</body>
+
+</html>
